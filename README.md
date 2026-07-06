@@ -89,3 +89,23 @@ streamlit run app.py
             [Audit Evaluation]
              ├─── [Fails Check] ───► (Routes back to Researcher)
              └─── [Passes/Capped] ─► [🎉 Final Enterprise Report Output]
+
+## 🤝 Contributing & Open Source
+
+DeepResearch-OS is entirely open-source and built for the community. I built this to solve a real problem with LLM hallucinations in research tasks, and I want you to use it, break it, and make it better!
+
+You are completely free to use this code for your own personal projects, internal company workflows, or weekend hackathons. 
+
+**Want to contribute?**
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+If you found this tool helpful, please give the repo a ⭐️! 
+
+## 📜 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
