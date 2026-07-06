@@ -25,13 +25,13 @@ search_tool = DuckDuckGoSearchRun()
 
 def get_models(gemini_key, groq_key):
     """Initializes advanced models using the user's free API keys"""
-    # UPDATE: We upgraded this to gemini-2.5-flash as 1.5 was recently deprecated by Google
+    # We use gemini-2.5-flash as 1.5 was recently deprecated by Google
     brain_llm = ChatGoogleGenerativeAI(
         model="gemini-2.5-flash", 
         google_api_key=gemini_key,
         temperature=0.3
     )
-    # UPDATE: We upgraded this to llama-3.3-70b-versatile as the older llama3 was decommissioned by Groq
+    # UPDATE: We use llama-3.3-70b-versatile as the older llama3 was decommissioned by Groq
     router_llm = ChatGroq(
         model="llama-3.3-70b-versatile", 
         groq_api_key=groq_key,
