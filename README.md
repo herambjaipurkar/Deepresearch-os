@@ -64,7 +64,9 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-🗺️ System Workflow Architecture
+## 🗺️ System Workflow Architecture
+
+
 [User Input Query] 
         │
         ▼
