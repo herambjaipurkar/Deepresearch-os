@@ -67,28 +67,9 @@ streamlit run app.py
 ## 🗺️ System Workflow Architecture
 
 
-[User Input Query] 
-        │
-        ▼
- ┌──────────────┐       ◄─── [Loop Back on Critique]
- │  Researcher  │ ───┐
- │   (Scraper)  │    │
- └──────────────┘    │ (Raw Notes)
-                     ▼
-             ┌──────────────┐
-             │    Writer    │
-             │ (Gemini 2.5) │
-             └──────────────┘
-                     │
-                     ▼ (Draft Report)
-             ┌──────────────┐
-             │    Critic    │
-             │ (Llama 3.3)  │
-             └──────────────┘
-                     │
-            [Audit Evaluation]
-             ├─── [Fails Check] ───► (Routes back to Researcher)
-             └─── [Passes/Capped] ─► [🎉 Final Enterprise Report Output]
+<p align="center">
+  <img src="assets/Structural_Workflow.png" alt="System Workflow" width="100%">
+</p>
 
 ## 🤝 Contributing & Open Source
 
