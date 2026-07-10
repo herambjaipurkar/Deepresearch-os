@@ -1,5 +1,11 @@
 # DeepResearch-OS 🌐
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Streamlit](https://img.shields.io/badge/Built_with-Streamlit-FF4B4B.svg)](https://streamlit.io)
+[![LangGraph](https://img.shields.io/badge/Powered_by-LangGraph-black.svg)](https://python.langchain.com/v0.1/docs/langgraph/)
+
+
 An autonomous, stateful multi-agent research engine that scrapes the web, synthesizes enterprise-grade technical intelligence reports, and subjects its own outputs to human-grade quality assurance audits. Built using **LangGraph**, **Gemini 2.5 Flash**, and **Llama 3.3 (Groq)**.
 
 <p align="center">
